@@ -4,23 +4,28 @@ import Navbar from "@/components/Navbar";
 import PROJECTS from "@/components/PROJECTS";
 import livewireimg from "../../public/image1.png"
 import gal361img from "../../public/image22.png"
+import homematchimg from "../../public/image4.png"
 import beetvimg from "../../public/image.png"
+import CONTACT from "@/components/CONTACT";
 
 
 
 export default function Home() {
   return (
-       <>
+       <main>
         <Navbar/>
+        <section id="HomePage">
         <HOMESCREEN />
-        <>
+        </section>
+
+        <section id="Projects">        
         <PROJECTS
         number={"01"}
         title={"LiveWire"}
         smalldetail={"Inspired by OTAYO, BEATGIG, and SPOTIFY"}
         details={"A Web and Android app that enables users to book artists, buy tickets for live events, and design custom posters. Intuitive interface makes booking artists and purchasing tickets easy. It set itself apart with a custom poster feature."}
         imagelink={livewireimg}
-        linktop={""}   
+        linktop={"https://livewireweb.vercel.app"}   
         t1={"React JS"}    
         t2={"Next JS"}
         t3={"React Native"}
@@ -34,7 +39,7 @@ export default function Home() {
         smalldetail={"Inspired by GALAXY and 361"}
         details={"An E-commerce inspired by two major retail brands. The website includes most of the features of the original website such as product listing, CIM monthly payment for individual products, shopping cart functionally and comparison page."}
         imagelink={gal361img}
-        linktop={""}  
+        linktop={"https://gal361.vercel.app"}  
         t1={"React JS"}    
         t2={"Next JS"}
         t3={"Tailwind CSS"} 
@@ -45,10 +50,10 @@ export default function Home() {
         <PROJECTS
         number={"03"}
         title={"HomeMatch"}
-        smalldetail={"Inspired by GALAXY and 361"}
-        details={"An E-commerce inspired by two major retail brands. The website includes most of the features of the original website such as product listing, CIM monthly payment for individual products, shopping cart functionally and comparison page."}
-        imagelink={""}
-        linktop={""}  
+        smalldetail={"Inspired by ZILLOW and LEXPRESS PROPERTY"}
+        details={"A web application that enables users to browse and purchase houses and lands in Mauritius."}
+        imagelink={homematchimg}
+        linktop={"https://homematch.vercel.app/"}  
         t1={"React JS"}    
         t2={"Next JS"}
         t3={"Tailwind CSS"} 
@@ -58,17 +63,26 @@ export default function Home() {
         <PROJECTS
         number={"04"}
         title={"BeeTV IPTV"}
-        smalldetail={"Inspired by GALAXY and 361"}
-        details={"An E-commerce inspired by two major retail brands. The website includes most of the features of the original website such as product listing, CIM monthly payment for individual products, shopping cart functionally and comparison page."}
+        smalldetail={"Inspired by MBC PLAY"}
+        details={"A Single Page Application that allows users to watch live channels from France, USA, UK in HD quality using the UNOFFICIAL SAMSUNG TV+ API."}
         imagelink={beetvimg}
-        linktop={""} 
+        linktop={"https://beetv.vercel.app/"} 
         t1={"React JS"}  
         t2={"Vite JS"}
         t3={"Tailwind CSS"} 
         t4={"API"} 
          />
-        </>
+        </section>
+
+
+        <section id="About">
         <ABOUT/>
-       </>
+        </section>
+
+        <section id="Contact">
+        <CONTACT/>
+        </section>
+
+       </main>
   )
 }

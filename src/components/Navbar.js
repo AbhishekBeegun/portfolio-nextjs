@@ -1,33 +1,54 @@
-import Link from "next/link"
+import { Link } from "react-scroll" 
 import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className="fixed z-50 top-0 flex flex-col h-screen w-[10vh] font-semibold text-xl justify-evenly items-center bg-black">
+    <div className="navbar-pc fixed border-r-2 z-50 top-0 flex flex-col h-screen w-[10vh] font-semibold text-xl justify-evenly items-center bg-black">
+        
 
-        <Link
-        className="text-white -rotate-90"
-        href={""}>
-        Abhishek
+        <Link activeClass="active"
+            className="text-white -rotate-90 hover:rotate-90 transition-all ease-in-out duration-300"
+            to="HomePage"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={1000}>
+          <p>Abhishek</p>
         </Link>
 
-        <Link 
-         className="text-white -rotate-90"
-        href={""}>
-        Projects
+        <Link activeClass="active"
+            className="text-white -rotate-90 hover:rotate-90 transition-all ease-in-out duration-300"
+            to="Projects"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={1000}>
+          <p>Projects</p>
         </Link>
 
-        <Link 
-         className="text-white -rotate-90"
-        href={""}> 
-        About
+
+        <Link activeClass="active"
+            className="text-white -rotate-90 hover:rotate-90 transition-all ease-in-out duration-300"
+            to="About"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={1000}>
+          <p>About</p>
         </Link>
 
-        <Link 
-         className="text-white -rotate-90"
-        href={""}>
-        Contact
+
+        <Link activeClass="active"
+            className="text-white -rotate-90 hover:rotate-90 transition-all ease-in-out duration-300"
+            to="Contact"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={1000}>
+          <p>Contact</p>
         </Link>
+
+        
     </div>
   )
 }

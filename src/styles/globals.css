@@ -7,10 +7,30 @@
   src: url(../../public/Ikaros-Regular.otf);
 }
 *{
+  overflow-x: hidden;
   font-family: ikaros;
 }
 *::-webkit-scrollbar {
     display: none;
   }
+
+
+  
+.navbarpc {
+  display: block;
+}
+.navbar-mobile {
+  display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .navbar-pc {
+      display: none;
+  }
+  .navbar-mobile {
+      display: block;
+  }
+}
 
 
