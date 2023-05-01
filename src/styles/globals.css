@@ -15,6 +15,12 @@
   }
 
 
+  @layer components {
+    .iconskill {
+      @apply flex flex-col items-center gap-5 scale-75 lg:scale-100 grayscale hover:grayscale-0 transition-all ease-in-out ;
+    }
+  }
+
   
 .navbarpc {
   display: block;

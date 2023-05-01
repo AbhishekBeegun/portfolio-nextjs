@@ -8,7 +8,7 @@ const PROJECTS = ({number,title,smalldetail,details
     <div className="h-auto w-screen flex justify-evenly">
       <div className=" w-full h-[100vh] flex flex-col justify-between px-2 lg:px-36 lg:py-24 ">
        <div className="flex flex-col lg:flex-row h-[100vh]">
-        <h2 className="text-2xl lg:text-5xl font-semibold">{number}</h2>
+        <h2 className="text-2xl lg:text-5xl px-1 font-semibold">{number}</h2>
         
    
 
