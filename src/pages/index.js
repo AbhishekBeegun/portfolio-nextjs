@@ -8,12 +8,19 @@ import homematchimg from "../../public/image4.png"
 import beetvimg from "../../public/image.png"
 import CONTACT from "@/components/CONTACT";
 import NAVBARMOBILE from "@/components/NAVBARMOBILE";
+import Head from "next/head";
 
 
 
 export default function Home() {
   return (
        <main>
+        <Head>
+        <title>Abhishek Beegun</title>
+        <meta name="description" content="Abhishek Beegun Portfolio" />
+        <link rel="icon" href="/logo.png" />
+        </Head>
+
         <Navbar/>
         <NAVBARMOBILE/>
         <section id="HomePage">

@@ -21,7 +21,11 @@ const CONTACT = () => {
       Get In Touch
       </a>
 
-      <p className="text-sm">Abhishek Beegun 2023</p>
+      <a 
+      href="mailto:abhishekbeegun0642@gmail.com"
+      className="text-sm">abhishekbeegun0642@gmail.com</a>
+      <p className="text-xs">AbhishekBeegun©2023</p>
+
       <Link
            to="HomePage"
            spy={true}
