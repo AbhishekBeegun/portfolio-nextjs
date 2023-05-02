@@ -41,7 +41,7 @@ business-minded.</p>
     smooth={true}
     offset={0}
     duration={1000}
-    className="bg-black rounded-sm text-white w-[200px] h-[50px] flex justify-center items-center"
+    className="bg-black rounded-sm text-white w-[200px] h-[50px] flex justify-center items-center hover:scale-110 transition-all ease-in-out"
     >
       <p>Contact</p>
     </Link>
@@ -75,6 +75,7 @@ business-minded.</p>
        rounded-full top-5 -right-10">
 
       </div>
+
      </div>
     </div>
   )

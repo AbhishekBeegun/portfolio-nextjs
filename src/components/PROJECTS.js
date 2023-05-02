@@ -3,7 +3,7 @@ import Link from "next/link"
 import Image from "next/image"
 
 const PROJECTS = ({number,title,smalldetail,details
-,t1,t2,t3,t4,t5,t6,linktop,imagelink}) => {
+,t1,t2,t3,t4,t5,t6,linktop,imagelink,githublink}) => {
   return (
     <div className="h-auto w-screen flex justify-evenly">
       <div className=" w-full h-[100vh] flex flex-col justify-between px-2 lg:px-36 lg:py-24 ">
@@ -35,6 +35,12 @@ const PROJECTS = ({number,title,smalldetail,details
     className="bg-black rounded-sm text-white w-[200px] h-[50px] flex justify-center items-center hover:scale-110 transition-all ease-in-out"
     >
       LIVE DEMO
+    </Link>
+
+    <Link href={`${githublink}`} target="_blank"
+    className="bg-black rounded-sm text-white w-[200px] h-[50px] flex justify-center items-center hover:scale-110 transition-all ease-in-out"
+    >
+      GITHUB
     </Link>
         </div>
 

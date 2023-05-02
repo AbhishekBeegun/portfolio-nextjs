@@ -3,7 +3,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className="navbar-pc fixed border-r-2 z-50 top-0 flex flex-col h-screen w-[10vh] font-semibold text-xl justify-evenly items-center bg-black">
+    <div className="navbar-pc fixed z-50 top-0 flex flex-col h-screen w-[10vh] font-semibold text-xl justify-evenly items-center bg-black">
         
 
         <Link activeClass="active"

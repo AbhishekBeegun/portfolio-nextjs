@@ -27,7 +27,8 @@ export default function Home() {
         smalldetail={"Inspired by OTAYO, BEATGIG, and SPOTIFY"}
         details={"A Web and Android app that enables users to book artists, buy tickets for live events, and design custom posters. Intuitive interface makes booking artists and purchasing tickets easy. It set itself apart with a custom poster feature."}
         imagelink={livewireimg}
-        linktop={"https://livewireweb.vercel.app"}   
+        linktop={"https://livewireweb.vercel.app"}  
+        githublink={"https://github.com/AbhishekBeegun/livewire-web"} 
         t1={"React JS"}    
         t2={"Next JS"}
         t3={"React Native"}
@@ -41,7 +42,8 @@ export default function Home() {
         smalldetail={"Inspired by GALAXY and 361"}
         details={"An E-commerce inspired by two major retail brands. The website includes most of the features of the original website such as product listing, CIM monthly payment for individual products, shopping cart functionally and comparison page."}
         imagelink={gal361img}
-        linktop={"https://gal361.vercel.app"}  
+        linktop={"https://gal361.vercel.app"} 
+        githublink={"https://github.com/AbhishekBeegun/ecommerce-nextjs-graphql"}  
         t1={"React JS"}    
         t2={"Next JS"}
         t3={"Tailwind CSS"} 
@@ -56,6 +58,7 @@ export default function Home() {
         details={"A web application that enables users to browse and purchase houses and lands in Mauritius."}
         imagelink={homematchimg}
         linktop={"https://homematch.vercel.app/"}  
+        githublink={"https://github.com/AbhishekBeegun/home-match-js"} 
         t1={"React JS"}    
         t2={"Next JS"}
         t3={"Tailwind CSS"} 
@@ -69,6 +72,7 @@ export default function Home() {
         details={"A Single Page Application that allows users to watch live channels from France, USA, UK in HD quality using the UNOFFICIAL SAMSUNG TV+ API."}
         imagelink={beetvimg}
         linktop={"https://beetv.vercel.app/"} 
+        githublink={"https://github.com/AbhishekBeegun/IPTV-reactjs-STV-"} 
         t1={"React JS"}  
         t2={"Vite JS"}
         t3={"Tailwind CSS"} 
