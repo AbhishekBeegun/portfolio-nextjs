@@ -1,5 +1,5 @@
-import Link from "next/link"
 import React, { useState } from 'react'
+import { Link } from "react-scroll";
 import { useEffect } from "react";
 
 const HOMESCREEN = () => {
@@ -35,17 +35,22 @@ human-centered design.
 Curious by nature and
 business-minded.</p>
 
-    <Link href={""}
+    <Link
+    to="Contact"
+    spy={true}
+    smooth={true}
+    offset={0}
+    duration={1000}
     className="bg-black rounded-sm text-white w-[200px] h-[50px] flex justify-center items-center"
     >
-      Contact Me
+      <p>Contact</p>
     </Link>
 
      </div>
 
      <div 
      onClick={() => randomshape()}
-     className="hidden cursor-pointer lg:block bg-black w-full h-full relative items-center">
+     className="hidden cursor-pointer lg:block bg-black w-full h-full relative items-center hover:invert transition-all ease-in-out">
       
       <div 
       style={{

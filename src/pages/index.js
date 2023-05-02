@@ -7,6 +7,7 @@ import gal361img from "../../public/image22.png"
 import homematchimg from "../../public/image4.png"
 import beetvimg from "../../public/image.png"
 import CONTACT from "@/components/CONTACT";
+import NAVBARMOBILE from "@/components/NAVBARMOBILE";
 
 
 
@@ -14,6 +15,7 @@ export default function Home() {
   return (
        <main>
         <Navbar/>
+        <NAVBARMOBILE/>
         <section id="HomePage">
         <HOMESCREEN />
         </section>

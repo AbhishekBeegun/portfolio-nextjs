@@ -15,8 +15,10 @@ const PROJECTS = ({number,title,smalldetail,details
         <div className="flex flex-col w-full h-full text-xl items-center justify-between py-16 lg:py-24 px-8">
           <h1 className=" text-4xl lg:text-5xl font-semibold">{title}</h1>
           <h2>{smalldetail}</h2>
-
-          <p>{details}</p>
+          <Image 
+          className="lg:hidden"
+          src={imagelink} alt="IMG DEMO" />
+          <p className="hidden lg:block">{details}</p>
 
           <div className="flex list-none flex-wrap gap-5 justify-between text-center font-semibold py-4">
             <li>{t1}</li>
