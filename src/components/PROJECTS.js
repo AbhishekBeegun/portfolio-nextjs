@@ -30,18 +30,22 @@ const PROJECTS = ({number,title,smalldetail,details
 
           </div>
 
-
+        <div className="flex w-full items-center justify-center gap-10 lg:gap-20 lg:text-2xl">
+       
           <Link href={`${linktop}`} target="_blank"
-    className="bg-black rounded-sm text-white w-[200px] h-[50px] flex justify-center items-center hover:scale-110 transition-all ease-in-out"
+    className=" rounded-sm underline underline-offset-4 hover:no-underline  h-[50px] flex justify-center items-center hover:scale-110 transition-all ease-in-out"
     >
       LIVE DEMO
     </Link>
 
     <Link href={`${githublink}`} target="_blank"
-    className="bg-black rounded-sm text-white w-[200px] h-[50px] flex justify-center items-center hover:scale-110 transition-all ease-in-out"
+    className="rounded-sm underline underline-offset-4 hover:no-underline h-[50px] flex justify-center items-center hover:scale-110 transition-all ease-in-out"
     >
       GITHUB
     </Link>
+    </div>
+
+
         </div>
 
        </div>

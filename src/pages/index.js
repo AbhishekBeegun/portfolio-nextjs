@@ -1,3 +1,5 @@
+import React from "react";
+
 import ABOUT from "@/components/ABOUT";
 import HOMESCREEN from "@/components/HOMESCREEN";
 import Navbar from "@/components/Navbar";
@@ -9,12 +11,29 @@ import beetvimg from "../../public/image.png"
 import CONTACT from "@/components/CONTACT";
 import NAVBARMOBILE from "@/components/NAVBARMOBILE";
 import Head from "next/head";
+// import { useState } from "react";
+// import { useEffect } from "react";
 
 
 
 export default function Home() {
+
+  // const [ColorB, setColorB] = useState(true)
+
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setColorB(!ColorB)
+  //   }, 6000);
+  
+  //   return () => clearInterval(interval);
+  // }, [ColorB]);
   return (
-       <main>
+       <main 
+      //  style={{
+      // color : ColorB ? "black"  :"white",
+      // transition: 'all 700ms',
+      //   }}
+       className="gradi">
         <Head>
         <title>Abhishek Beegun</title>
         <meta name="description" content="Abhishek Beegun Portfolio" />
@@ -27,11 +46,14 @@ export default function Home() {
         <HOMESCREEN />
         </section>
 
+
+
+
         <section id="Projects">        
         <PROJECTS
         number={"01"}
         title={"LiveWire"}
-        smalldetail={"Inspired by OTAYO, BEATGIG, and SPOTIFY"}
+        smalldetail={"Similar to OTAYO, BEATGIG, and SPOTIFY"}
         details={"A Web and Android app that enables users to book artists, buy tickets for live events, and design custom posters. Intuitive interface makes booking artists and purchasing tickets easy. It set itself apart with a custom poster feature."}
         imagelink={livewireimg}
         linktop={"https://livewireweb.vercel.app"}  
@@ -61,7 +83,7 @@ export default function Home() {
         <PROJECTS
         number={"03"}
         title={"HomeMatch"}
-        smalldetail={"Inspired by ZILLOW and LEXPRESS PROPERTY"}
+        smalldetail={"Similar to ZILLOW and LEXPRESS PROPERTY"}
         details={"A web application that enables users to browse and purchase houses and lands in Mauritius."}
         imagelink={homematchimg}
         linktop={"https://homematch.vercel.app/"}  
@@ -75,7 +97,7 @@ export default function Home() {
         <PROJECTS
         number={"04"}
         title={"BeeTV IPTV"}
-        smalldetail={"Inspired by MBC PLAY"}
+        smalldetail={"Similar to MBC PLAY"}
         details={"A Single Page Application that allows users to watch live channels from France, USA, UK in HD quality using the UNOFFICIAL SAMSUNG TV+ API."}
         imagelink={beetvimg}
         linktop={"https://beetv.vercel.app/"} 

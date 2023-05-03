@@ -12,8 +12,8 @@ const CONTACT = () => {
    
     <div className="bg-black bg-opacity-80 lg:bg-opacity-90 w-full h-full text-5xl relative lg:h-1/2 z-30 lg:py-10 px-4 lg:px-48 text-white flex flex-col justify-center gap-10 lg:gap-0 lg:justify-between">
       <p className="text-lg">Contact</p>
-      <h2>You have a new project?</h2>
-      <h2>or want to say hello...</h2>
+      {/* <h2>You have a new project?</h2> */}
+      <h2>Want to say hello ? </h2>
 
       <a
       href="mailto:abhishekbeegun0642@gmail.com?subject=Getting In Touch"
@@ -23,7 +23,7 @@ const CONTACT = () => {
 
       <a 
       href="mailto:abhishekbeegun0642@gmail.com"
-      className="text-sm">abhishekbeegun0642@gmail.com</a>
+      className="text-sm">Email : abhishekbeegun0642@gmail.com</a>
       <p className="text-xs">AbhishekBeegun©2023</p>
 
       <Link
