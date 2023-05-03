@@ -75,8 +75,9 @@ export default function Home() {
         githublink={"https://github.com/AbhishekBeegun/ecommerce-nextjs-graphql"}  
         t1={"React JS"}    
         t2={"Next JS"}
-        t3={"Tailwind CSS"} 
-        t4={"Hygraph CMS"}  
+        t3={"Redux"}
+        t4={"Tailwind CSS"} 
+        t5={"Hygraph CMS"}  
         />
 
 
