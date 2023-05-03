@@ -6,7 +6,7 @@ const CONTACT = () => {
     <footer className="h-screen w-screen bg-black flex flex-col justify-center items-end lg:flex-row relative">
 
       <img 
-      className="w-full h-full absolute lg:opacity-80 z-10 object-cover"
+      className="w-full h-full absolute lg:opacity-60 z-10 object-cover"
       src="https://cdn.thecollector.com/wp-content/uploads/2022/03/michelangelo-creation-adam-detail-featured.jpg?width=1400&quality=100"  />
       
    

@@ -98,7 +98,7 @@ export default function Home() {
         number={"04"}
         title={"BeeTV IPTV"}
         smalldetail={"Similar to MBC PLAY"}
-        details={"A Single Page Application that allows users to watch live channels from France, USA, UK in HD quality using the UNOFFICIAL SAMSUNG TV+ API."}
+        details={"A Single Page Application that allows users to watch 200+ live channels from France, USA and UK in HD quality using the UNOFFICIAL SAMSUNG TV+ API."}
         imagelink={beetvimg}
         linktop={"https://beetv.vercel.app/"} 
         githublink={"https://github.com/AbhishekBeegun/IPTV-reactjs-STV-"} 

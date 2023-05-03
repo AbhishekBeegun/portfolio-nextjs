@@ -26,7 +26,7 @@ useEffect(() => {
   return (
     <div className="h-screen w-screen flex justify-evenly">
 
-     <div className="w-full h-full flex flex-col justify-between px-10 lg:px-36 py-32 lg:py-64 ">
+     <div className="w-full h-full flex flex-col justify-center gap-10 lg:gap-20 px-10 lg:px-36 ">
       <h2 className="text-4xl">Hi there, I&apos;m</h2>
       <h1 className="text-5xl py-2">Abhishek Beegun</h1>
 
@@ -50,7 +50,7 @@ business-minded.</p>
 
      <div 
      onClick={() => randomshape()}
-     className="hidden cursor-pointer lg:block bg-black w-full h-full relative items-center hover:invert transition-all ease-in-out">
+     className="hidden overflow-hidden cursor-pointer lg:block bg-black w-full h-full relative items-center hover:invert transition-all ease-in-out">
       
       <div 
       style={{

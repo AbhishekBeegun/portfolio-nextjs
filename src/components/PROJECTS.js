@@ -6,8 +6,8 @@ const PROJECTS = ({number,title,smalldetail,details
 ,t1,t2,t3,t4,t5,t6,linktop,imagelink,githublink}) => {
   return (
     <div className="h-auto w-screen flex justify-evenly">
-      <div className=" w-full h-[100vh] flex flex-col justify-between px-2 lg:px-36 lg:py-24 ">
-       <div className="flex flex-col lg:flex-row h-[100vh]">
+      <div className=" w-full h-[100vh] flex flex-col justify-between px-2 lg:px-36  ">
+       <div className="flex flex-col lg:flex-row h-full">
         <h2 className="text-2xl lg:text-5xl px-1 font-semibold">{number}</h2>
         
    
@@ -52,11 +52,14 @@ const PROJECTS = ({number,title,smalldetail,details
         
       </div>
 
-      <div className="hidden w-full h-[100vh] lg:flex flex-col items-center justify-center bg-black ">
+      <a
+      target="_blank"
+      href={linktop}
+      className="hidden w-full h-[100vh] lg:flex flex-col items-center justify-center bg-black ">
 
         <Image src={imagelink} alt="IMG DEMO" />
 
-      </div>
+      </a>
     </div>
   )
 }

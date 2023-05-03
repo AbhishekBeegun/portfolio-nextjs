@@ -7,7 +7,6 @@
   src: url(../../public/Ikaros-Regular.otf);
 }
 *{
-  overflow-x: hidden;
   font-family: ikaros;
   
 }

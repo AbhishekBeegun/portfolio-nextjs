@@ -14,7 +14,7 @@ const NAVBARMOBILE = () => {
         <svg xmlns="http://www.w3.org/2000/svg" fill="black"  viewBox="0 0 30 30" width="30px" height="30px"><path d="M 3 7 A 1.0001 1.0001 0 1 0 3 9 L 27 9 A 1.0001 1.0001 0 1 0 27 7 L 3 7 z M 3 14 A 1.0001 1.0001 0 1 0 3 16 L 27 16 A 1.0001 1.0001 0 1 0 27 14 L 3 14 z M 3 21 A 1.0001 1.0001 0 1 0 3 23 L 27 23 A 1.0001 1.0001 0 1 0 27 21 L 3 21 z"/></svg>
         </button>
 
-        <div className={`top-0 z-50 right-0 flex flex-col justify-around text-5xl items-end border-b border bg-black text-white fixed w-full h-full py-10 px-8 
+        <div className={`top-0 z-50 right-0 flex flex-col justify-around text-5xl items-end border-b border bg-black text-white fixed w-[100vw] h-full py-10 px-8 
        ${NavOpen ? 'translate-x':'translate-x-full'}
        ease-in-out duration-500
        }`}>
