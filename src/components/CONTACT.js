@@ -7,7 +7,9 @@ const CONTACT = () => {
 
       <img 
       className="w-full h-full absolute lg:opacity-60 z-10 object-cover"
-      src="https://cdn.thecollector.com/wp-content/uploads/2022/03/michelangelo-creation-adam-detail-featured.jpg?width=1400&quality=100"  />
+      src="https://cdn.thecollector.com/wp-content/uploads/2022/03/michelangelo-creation-adam-detail-featured.jpg?width=1400&quality=100"
+      alt="Touch here"
+      />
       
    
     <div className="bg-black bg-opacity-80 lg:bg-opacity-90 w-full h-full text-5xl relative lg:h-1/2 z-30 lg:py-10 px-4 lg:px-48 text-white flex flex-col justify-center gap-10 lg:gap-0 lg:justify-between">
