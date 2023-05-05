@@ -80,9 +80,23 @@ export default function Home() {
         t5={"Hygraph CMS"}  
         />
 
+              <PROJECTS
+        number={"03"}
+        title={"BeeTV IPTV"}
+        smalldetail={"Similar to MBC PLAY"}
+        details={"A Single Page Application that allows users to watch 200+ live channels from France, USA and UK in HD quality using the UNOFFICIAL SAMSUNG TV+ API."}
+        imagelink={beetvimg}
+        linktop={"https://beetv.vercel.app/"} 
+        githublink={"https://github.com/AbhishekBeegun/IPTV-reactjs-STV-"} 
+        t1={"React JS"}  
+        t2={"Vite JS"}
+        t3={"Tailwind CSS"} 
+        t4={"API"} 
+         />
+
 
         <PROJECTS
-        number={"03"}
+        number={"04"}
         title={"HomeMatch"}
         smalldetail={"Similar to ZILLOW and LEXPRESS PROPERTY"}
         details={"A web application that enables users to browse and purchase houses and lands in Mauritius."}
@@ -95,19 +109,7 @@ export default function Home() {
         t4={"Hygraph CMS"}  
         
         />
-        <PROJECTS
-        number={"04"}
-        title={"BeeTV IPTV"}
-        smalldetail={"Similar to MBC PLAY"}
-        details={"A Single Page Application that allows users to watch 200+ live channels from France, USA and UK in HD quality using the UNOFFICIAL SAMSUNG TV+ API."}
-        imagelink={beetvimg}
-        linktop={"https://beetv.vercel.app/"} 
-        githublink={"https://github.com/AbhishekBeegun/IPTV-reactjs-STV-"} 
-        t1={"React JS"}  
-        t2={"Vite JS"}
-        t3={"Tailwind CSS"} 
-        t4={"API"} 
-         />
+  
         </section>
 
 
