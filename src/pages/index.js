@@ -56,7 +56,7 @@ export default function Home() {
         smalldetail={"Similar to OTAYO, BEATGIG, and SPOTIFY"}
         details={"A Web and Android app that enables users to book artists, buy tickets for live events, and design custom posters. Intuitive interface makes booking artists and purchasing tickets easy. It set itself apart with a custom poster feature."}
         imagelink={livewireimg}
-        linktop={"https://livewireweb.vercel.app"}  
+        linktop={"https://livewireweb.vercel.app/explore"}  
         githublink={"https://github.com/AbhishekBeegun/livewire-web"} 
         t1={"React JS"}    
         t2={"Next JS"}
