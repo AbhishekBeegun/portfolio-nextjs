@@ -8,6 +8,7 @@ import livewireimg from "../../public/image1.png"
 import gal361img from "../../public/image22.png"
 import homematchimg from "../../public/image4.png"
 import beetvimg from "../../public/image.png"
+import relaximg from "../../public/image3.png"
 import CONTACT from "@/components/CONTACT";
 import NAVBARMOBILE from "@/components/NAVBARMOBILE";
 import Head from "next/head";
@@ -80,8 +81,22 @@ export default function Home() {
         t5={"Hygraph CMS"}  
         />
 
-              <PROJECTS
+<PROJECTS
         number={"03"}
+        title={"Relax"}
+        smalldetail={"Inspired by Calm and Headspace"}
+        details={"An Android app designed to help users reduce stress, promote relaxation, and improve their overall mental well-being.Relax offers a variety of guided meditations, ambient sounds, and other features to help users achieve greater calm and focus in their daily lives."}
+        imagelink={relaximg}
+        linktop={"https://drive.google.com/uc?export=download&id=1asXJ1x-zppCEQUiLXEVSe43IFtig-PEl"} 
+        githublink={"https://github.com/AbhishekBeegun/relax-react-native-expo"}  
+        t1={"React Native"}    
+        t2={"Expo"}
+        t3={"Tailwind CSS"}
+        t4={"Sanity CMS"} 
+        />
+
+              <PROJECTS
+        number={"04"}
         title={"BeeTV IPTV"}
         smalldetail={"Similar to MBC PLAY"}
         details={"A Single Page Application that allows users to watch 200+ live channels from France, USA and UK in HD quality using the UNOFFICIAL SAMSUNG TV+ API."}
@@ -96,7 +111,7 @@ export default function Home() {
 
 
         <PROJECTS
-        number={"04"}
+        number={"05"}
         title={"HomeMatch"}
         smalldetail={"Similar to ZILLOW and LEXPRESS PROPERTY"}
         details={"A web application that enables users to browse and purchase houses and lands in Mauritius."}
