@@ -16,7 +16,7 @@ const PROJECTS = ({number,title,smalldetail,details
           <h1 className=" text-4xl lg:text-5xl font-semibold">{title}</h1>
           <h2>{smalldetail}</h2>
           <Image 
-          className="lg:hidden"
+          className="lg:hidden scale-125"
           src={imagelink} alt="IMG DEMO" />
           <p className="hidden lg:block">{details}</p>
 
@@ -57,7 +57,9 @@ const PROJECTS = ({number,title,smalldetail,details
       href={linktop}
       className="hidden w-full h-[100vh] lg:flex flex-col items-center justify-center bg-black ">
 
-        <Image src={imagelink} alt="IMG DEMO" />
+        <Image
+        className=""
+        src={imagelink} alt="IMG DEMO" />
 
       </a>
     </div>
