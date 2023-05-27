@@ -14,7 +14,7 @@ const PROJECTS = ({number,title,smalldetail,details
 
         <div className="flex flex-col w-full h-full text-xl items-center justify-between py-16 lg:py-24 px-8">
           <h1 className=" text-4xl lg:text-5xl font-semibold">{title}</h1>
-          <h2>{smalldetail}</h2>
+          <h2 className="text-center">{smalldetail}</h2>
           <Image 
           className="lg:hidden scale-125"
           src={imagelink} alt="IMG DEMO" />
@@ -58,7 +58,7 @@ const PROJECTS = ({number,title,smalldetail,details
       className="hidden w-full h-[100vh] lg:flex flex-col items-center justify-center bg-black ">
 
         <Image
-        className=""
+        className="hover:scale-105 transition-all ease-in-out"
         src={imagelink} alt="IMG DEMO" />
 
       </a>

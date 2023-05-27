@@ -18,8 +18,8 @@ const CONTACT = () => {
       <h2>Want to say hello ? </h2>
 
       <a
-      href="mailto:abhishekbeegun0642@gmail.com?subject=Getting In Touch"
-      className="animate-pulse text-red-500">
+      href="mailto:abhishekbeegun0642@gmail.com?subject=Get In Touch"
+      className="animate-pulse text-red-500 hover:scale-105 transition-all ease-in-out">
       Get In Touch
       </a>
 
