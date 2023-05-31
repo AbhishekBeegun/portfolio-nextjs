@@ -12,7 +12,9 @@ const AbzNavbar = () => {
       src={LOGOCINEMA}
       className="w-20 h-20 object-contain" width={80} height={80} />
       {navitem.map( item => (
+        <div key={item}>
         <p className="">{item}</p>
+        </div>
       ))}
     
     </div>

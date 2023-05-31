@@ -6,7 +6,7 @@ const FCarouselCard = ({imge,title}) => {
       
 
 
-      <div className=" z-10   absolute bottom-5 left-5 flex gap-5">
+      <div className=" z-10 absolute bottom-5 left-5 flex gap-5">
       <button className="px-6 py-4 rounded-lg border">Previous</button>
       <button className="px-6 py-4 rounded-lg border">Next</button>
 

@@ -9,7 +9,9 @@ const LatestMovies = () => {
     <h1 className="text-4xl py-5">MOVIES IN THE SPOTLIGHT THIS WEEK</h1>
     <div className="flex flex-row flex-wrap gap-10 items-center justify-center px-48 py-8">
       {movieslist.map( movie => (
+        <div key={movie}>
         <MoviesCard/>
+        </div>
         ))}
     </div>
     </div>
